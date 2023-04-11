@@ -1,7 +1,9 @@
-#/bin/bash/python3
+#!/bin/bash/python3
 """
 a class MyList that inherits from list
 """
+
+
 class MyList(list):
     """Class with method print_sorted"""
     pass

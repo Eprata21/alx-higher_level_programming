@@ -1,10 +1,13 @@
-#/bin/bash/python3
+#!/bin/bash/python3
 Rectangle = __import__('9-rectangle').Rectangle
 """
 class of rectangle
 """
+
+
 class Square(Rectangle):
     """ class square"""
+
     def __init__(self, size):
         """ function that define the area"""
 
@@ -15,4 +18,3 @@ class Square(Rectangle):
     def area(self):
         """method that define area again"""
         return self.__size ** 2
-

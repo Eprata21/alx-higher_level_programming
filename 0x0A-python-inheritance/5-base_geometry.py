@@ -1,7 +1,9 @@
-#/bin/bash/python3
+#!/bin/bash/python3
 """
-module with class basegeometry 
+module with class basegeometry
 """
+
+
 class BaseGeometry():
     """class basegeometry"""
     pass
