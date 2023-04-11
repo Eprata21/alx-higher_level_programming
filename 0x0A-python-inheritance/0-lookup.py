@@ -1,9 +1,12 @@
-#!/bin/bash/python3
+#!/usr/bin/python3
 """
-module and method of attributes
+=============================
+Module with the method lookpu
+=============================
 """
 
 
 def lookup(obj):
-    """function of list of avilaiable objects and methods"""
+    """Function for return the attributes for an object"""
+
     return dir(obj)
