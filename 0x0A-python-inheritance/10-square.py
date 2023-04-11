@@ -6,15 +6,16 @@ class of rectangle
 
 
 class Square(Rectangle):
-    """ class square"""
+    """Square class that inherits from Rectangle that inherits BaseGeometry"""
 
     def __init__(self, size):
-        """ function that define the area"""
+        """Method for initialized the attrubutes"""
 
         super().__init__(size, size)
-        self.__size = size
         self.integer_validator("size", size)
+        self.__size = size
 
     def area(self):
-        """method that define area again"""
+        """rectangle area"""
+
         return self.__size ** 2

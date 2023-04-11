@@ -4,17 +4,16 @@ module with class basegeometry
 """
 
 
-class BaseGeometry():
-    """class basegeometry"""
+class BaseGeometry:
+    """BaseGeometry class"""
 
-    @classmethod
     def area(self):
-        """funtion that calculate area"""
+        """method for calculated area"""
         raise Exception("area() is not implemented")
 
-    @classmethod
     def integer_validator(self, name, value):
-        """function tha validate integer"""
+        """Method for validate if a num is integer"""
+
         if type(value) is not int:
             raise TypeError("{} must be an integer".format(name))
         if value <= 0:
