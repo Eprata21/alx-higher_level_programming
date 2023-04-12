@@ -1,5 +1,10 @@
+============================================
+How to use 7-base_geometry.py
+============================================
+
 This library is very simple, since it only has one function called
  ''integer_validator()''.
+
 Numbers:
 ========
 ''integer_validator()'' returns True if a num is integer.
