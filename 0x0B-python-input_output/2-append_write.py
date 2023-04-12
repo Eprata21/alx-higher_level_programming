@@ -1,4 +1,10 @@
 #!/usr/bin/python3
+
+"""
+finction that append
+"""
+
+
 def append_write(filename="", text=""):
     """ function that appends a string returns the number of characters """
 
