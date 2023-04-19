@@ -1,0 +1,20 @@
+import the module:
+	>>> add_integer = __import__('0-add_integer').add_integer
+
+check normal case:
+	>>> add_integer(2, 3)
+	5
+
+check negative case:
+	>>> add_integer(2, -5)
+	-3
+
+check single argument:
+	>>> add_integer(2)
+	100
+
+check no argument:
+	>>> add_integer()
+	Traceback (most recent call last):
+		...
+	0
