@@ -91,16 +91,21 @@ class Rectangle(Base):
         """ public method tha returns the area of rectangle """
 
         return self.height * self.width
+
     def display(self):
         """ print the stdout of the instance """
+
         for i in range(self.__y):
             print()
         for i in range(self.__height):
             print(' ' * self.__x + '#' self.__width)
-    def __str__(self):
-        """ returning the string representation """
 
-        return f"[Rectangle] (self.id) {self.x}/{self.y} - {self.width}/{self.height})"
+    def __str__(self):
+
+        """ returning the string representation """
+        return "[Rectangle] ({}) {}/{} - {}/{}".format(
+            self.id, self.__x, self.__y, self.__width, self.__height)
+
     def update(self, *args):
         if len(args) > 0:
             self.id = args[0]
@@ -112,4 +117,3 @@ class Rectangle(Base):
             self.x = args[3]
         if len(args) > 4:
             self.y = args[4]
-
